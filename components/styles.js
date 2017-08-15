@@ -1,4 +1,4 @@
-import { Dimensions, StyleSheet } from 'react-native';
+import import { Dimensions, StyleSheet } from 'react-native';
 
 const DEVICE_WIDTH = Dimensions.get('window').width;
 
@@ -13,10 +13,11 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
   },
   controlButton: {
+     marginTop: 3,
   },
   controlButtonText: {
     margin: 10,
-    fontSize: 15,
+  //  fontSize: 15,
   },
   title: {
     flex: 1,
